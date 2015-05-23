@@ -17,6 +17,7 @@ namespace MVCProject.Controllers
         // GET: Guestbooks
         public ActionResult Index()
         {
+            // 回傳列表
             return View(db.Guestbooks.ToList());
         }
 
